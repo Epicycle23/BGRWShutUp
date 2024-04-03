@@ -1,0 +1,7 @@
+## Interface: 11502
+## Version: 1.0.3
+## Title: BG RW SHUTUP
+## Notes: Disable pesky rw spammers in bg
+## Author: Epicycle
+## SavedVariables: bgRwShutUpConfiguration
+bgrwshutup.lua
