@@ -1,5 +1,5 @@
 ## Interface: 11504
-## Version: 1.0.5
+## Version: 1.0.6
 ## Title: BG RW SHUTUP
 ## Notes: Disable pesky rw spammers in bg
 ## Author: Epicycle
