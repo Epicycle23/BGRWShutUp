@@ -16,7 +16,9 @@ local RWFrame = RaidWarningFrame --RaidBossEmoteFrame
 local identifier = "BG RW ShutUp"
 local bgRwFrame = CreateFrame("Frame", "BGRWShutUpFrame")
 bgRwFrame.name = identifier
-InterfaceOptions_AddCategory(bgRwFrame)
+local category, layout = Settings.RegisterCanvasLayoutCategory(bgRwFrame, bgRwFrame.name, bgRwFrame.name);
+category.ID = bgRwFrame.name
+Settings.RegisterAddOnCategory(category);
 
 local title = bgRwFrame:CreateFontString("ARTWORK", nil, "GameFontNormalLarge")
 title:SetPoint("TOP")
